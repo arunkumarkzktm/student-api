@@ -18,6 +18,8 @@ public class StudentController {
 
     @PostMapping
     public Student create(@RequestBody Student s) {
+        System.out.println("Arunkumar");
+        System.out.println("I am Fine");
         return service.create(s);
     }
 
