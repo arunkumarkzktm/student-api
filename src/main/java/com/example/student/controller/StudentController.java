@@ -18,6 +18,8 @@ public class StudentController {
 
     @PostMapping
     public Student create(@RequestBody Student s) {
+        System.out.println("HIIIII Iam Karan");
+        System.out.println("Namskaram");
         return service.create(s);
     }
 
@@ -25,6 +27,13 @@ public class StudentController {
     public List<Student> getAll() {
         return service.getAll();
     }
+    @GetMapping
+    public String getStudentName(){
+        System.out.println("HII");
+        return "arun";
+    }
+
+
     public String allianzGermany(){
         return "ABC";
     }
