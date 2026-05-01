@@ -36,4 +36,5 @@ public class StudentController {
     public String getDept(){
         return "college";
     }
+
 }
