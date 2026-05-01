@@ -29,6 +29,7 @@ public class StudentController {
     }
     @GetMapping
     public String getStudentName(){
+        System.out.println("HII");
         return "arun";
     }
 
@@ -36,5 +37,4 @@ public class StudentController {
     public String getDept(){
         return "college";
     }
-
 }
