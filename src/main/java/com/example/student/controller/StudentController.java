@@ -25,4 +25,10 @@ public class StudentController {
     public List<Student> getAll() {
         return service.getAll();
     }
+    public String allianzGermany(){
+        return "ABC";
+    }
+    public String getDept(){
+        return "IT";
+    }
 }
