@@ -53,5 +53,8 @@ public class StudentController {
     public String getAllianzTestFour(){
         return "testFour";
     }
-    //
+
+    public String getNameAndDetails(){
+        return "HELL";
+    }
 }
