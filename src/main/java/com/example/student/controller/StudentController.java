@@ -37,4 +37,11 @@ public class StudentController {
     public String getDept(){
         return "college";
     }
+
+    public String getAllianzTest3(){
+        return "test3";
+    }
+    public String getAllianzTest4(){
+        return "test4";
+    }
 }
