@@ -40,4 +40,13 @@ public class StudentController {
     public String getDept(){
         return "IT";
     }
+
+    public String allianzTestingOne(){
+        return "test1";
+    }
+    public String allianzTestingTwo(){
+        return "test2";
+    }
+
+
 }
