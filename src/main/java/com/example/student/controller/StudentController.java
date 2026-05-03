@@ -50,8 +50,8 @@ public class StudentController {
     public String getAllianzTest3(){
         return "test3";
     }
-    public String getAllianzTest4(){
-        return "test4";
+    public String getAllianzTestFour(){
+        return "testFour";
     }
 
     public String getNameAndDetails(){
