@@ -47,4 +47,5 @@ public class StudentController {
     public String allianzTestingTwo(){
         return "test2";
     }
+
 }
