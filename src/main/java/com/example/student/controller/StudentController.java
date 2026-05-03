@@ -33,11 +33,20 @@ public class StudentController {
         return "arun";
     }
 
-    @GetMapping
+
+    public String allianzGermany(){
+        return "ABC";
+    }
     public String getDept(){
-        return "college";
+        return "IT";
     }
 
+    public String allianzTestingOne(){
+        return "test1";
+    }
+    public String allianzTestingTwo(){
+        return "test2";
+    }
     public String getAllianzTest3(){
         return "test3";
     }
